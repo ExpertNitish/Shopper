@@ -114,7 +114,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .cartitems {
     margin: 4vw 6vw;
   }
@@ -146,7 +146,7 @@ hr {
 
 
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .cartitems {
     margin: 2vw 4vw;
   }
