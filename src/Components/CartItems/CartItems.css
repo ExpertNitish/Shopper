@@ -53,32 +53,32 @@ hr {
   flex-direction: column;
   gap: 2vw;
   margin-right: 0;
+}
 
-  button {
-    height: 6vw;
-    outline: none;
-    border: none;
-    padding: 20px;
-    background: #ff5a5a;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 1.5vw;
-    font-weight: 600;
-    cursor: pointer;
-  }
+.cartItems-total button {
+  height: 6vw;
+  outline: none;
+  border: none;
+  padding: 20px;
+  background: #ff5a5a;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: 600;
+  cursor: pointer;
+}
 
-  .cartItems-total-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 1vw 0;
-  }
+.cartItems-total-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 0;
 }
 
 .cartItems-promocode {
   flex: 1;
   font-size: 1.4vw;
   font-weight: 500;
-  margin-top: 50px; 
+  margin-top: 50px;
 }
 
 .cartItems-promocode p {
@@ -93,25 +93,25 @@ hr {
   background: #eaeaea;
   display: flex;
   align-items: center;
+}
 
-  input {
-    border: none;
-    outline: none;
-    background: transparent;
-    font-size: 1.4vw;
-    flex: 1;
-    height: 100%;
-    padding-left: 1vw;
-  }
+.cartItems-promoBox input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1.4vw;
+  flex: 1;
+  height: 100%;
+  padding-left: 1vw;
+}
 
-  button {
-    width: 20vw;
-    height: 5vw;
-    font-size: 1.4vw;
-    color: white;
-    background: black;
-    cursor: pointer;
-  }
+.cartItems-promoBox button {
+  width: 20vw;
+  height: 5vw;
+  font-size: 1.4vw;
+  color: white;
+  background: black;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -143,8 +143,7 @@ hr {
     height: 8vw;
     font-size: 3vw;
   }
-
-
+}
 
 @media (max-width: 480px) {
   .cartitems {
@@ -153,13 +152,11 @@ hr {
 
   .cartitems-format-main,
   .cartitems-format {
-    /* grid-template-columns: repeat(6, 1fr); */
     gap: 1vw;
-    /* font-size: 4vw; */
   }
 
   .cartitems-product-icon {
-    /* height: 20vw; */
+    height: 20vw;
   }
 
   .cartitem-remove-icon {
@@ -173,10 +170,7 @@ hr {
   }
 
   .cartItems-total button {
-    /* width: 40vw; */
     height: 10vw;
     font-size: 4vw;
   }
-
-
 }
